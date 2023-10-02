@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .input-group{
+        @apply flex;
+    }
+
+    .button {
+        @apply p-5 rounded-md inline-block bg-blue-500;
+    }
+}
